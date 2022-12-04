@@ -49,7 +49,7 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         EXCLUDED: gboncoffee/gboncoffee.github.io
-        EXCLUDED_LANGS: tex,makefile
+        EXCLUDED_LANGS: tex,makefile,roff
         EXCLUDE_FORKED_REPOS: true
 
     # Commit all changed files to the repository
